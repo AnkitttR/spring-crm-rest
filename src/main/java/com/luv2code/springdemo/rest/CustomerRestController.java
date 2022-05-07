@@ -36,9 +36,10 @@ public class CustomerRestController {
 			throw new CustomerNotFoundException("Customer id not found - " + customerId);
 		}
 		
-		
 		return theCustomer;
 		
 	}
+	
+	// add mapping for POST/customers - add new customer 
 
 }
